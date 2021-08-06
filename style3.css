@@ -1,0 +1,89 @@
+#banner{
+	width: 100%;
+	/*border-radius: 40px;*/
+	position: relative;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	display: flex;
+}
+
+#logo{
+	position: absolute;
+	z-index: 1;
+}
+#list{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+/* text-align: left;*/
+ list-style-type: none;
+}
+
+#ul1{
+	margin-right:50px;
+}
+
+#icon {
+	position: absolute;
+	left: 100px;
+}
+
+#menu-icon{
+	width: 40px;
+}
+
+#sign-in-icon{
+	width: 40px;
+}
+
+h1{
+	z-index: 100;
+	font-size: 500%;
+	position: absolute;
+	top: 280px;
+	left: 30px;
+	color: white;
+}
+
+h2{
+	z-index: 100;
+	position: absolute;
+	font-size: 200%;
+	top: 550px;
+	left: 30px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+
+
+.cards{
+	width: 500px;
+	height: 200px;
+	border-radius: 40px;
+}
+
+#cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+
+#logo {
+	height: 8%;
+	top: 20px;
+	left: 20px;
+}
+
+#icons {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
